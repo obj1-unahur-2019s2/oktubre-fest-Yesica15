@@ -22,7 +22,8 @@ class CervezaRoja inherits CervezaNegra{
 
 class Jarra{
 	var property litros
-	var property marcas 
+	var property marcas
+	var property carpaOrigen
 	
 	method contAlcoho()= litros* marcas.graduacion()
 }
